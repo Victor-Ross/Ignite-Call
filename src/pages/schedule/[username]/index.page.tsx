@@ -2,7 +2,7 @@ import { prisma } from '@/src/lib/prisma';
 import { Avatar, Heading, Text } from '@ignite-ui/react';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo';
-import { Scheduleform } from './ScheduleForm/index.page';
+import Scheduleform from './ScheduleForm/index.page';
 import { Container, UserHeader } from './styles';
 
 interface ScheduleProps {
